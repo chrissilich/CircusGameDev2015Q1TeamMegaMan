@@ -1,44 +1,17 @@
 ﻿#pragma strict
 
 public var jumpSpeed:float = 8;
-public var acceleration:float = 0.2;
-public var maxSpeed:float = 15;
+public var acceleration:float = 0.1;
+public var maxSpeed:float = 2;
 
 function Start () {
-//	Debug.Log("Character Start Function");
-	
-	// rigidbody2D.velocity.y = 8;
+
 }
 
 function FixedUpdate () {
-	var sprite:Transform = this.transform.Find("Sprite");
+	var sprite:Transform = this.transform.Find("Sprite") ;
 	var animController:Animator = sprite.GetComponent("Animator");
 //	Debug.Log(animController);
-
-
-
-// Keyboard Controls 
-
-  if ( Input.GetKey(KeyCode.RightArrow) ) { 
-  
-  	animController.SetInteger("State" , 1);
-  	
-	if (rigidbody2D.velocity.x < maxSpeed) {
-		rigidbody2D.velocity.x += acceleration;
-	} 
-  } 
-  
-   if ( Input.GetKey(KeyCode.LeftArrow) ) { 
-    
-     animController.SetInteger("State" , 1);
-     
-	 if (rigidbody2D.velocity.x < maxSpeed) {
-			rigidbody2D.velocity.x -= acceleration;
-		} 	
-    }
-  
-  
-// end keyboard controls
  
 	
 	var start = transform.position;
@@ -53,15 +26,60 @@ function FixedUpdate () {
 	} else {
 		animController.SetInteger("State", 1);
 	}
-		if (Input.GetAxis("Vertical") && grounded.collider.gameObject.tag == "Ground") {
+	
+	
+
+	
+
+// Keyboard Controls 
+
+	if (Input.GetAxis("Vertical") > 0 && 
+		grounded.collider &&
+		grounded.collider.gameObject.tag == "Ground") {
+		
 		Debug.Log("JUMP");
+		animController.SetInteger("State", 1);
 		rigidbody2D.velocity.y = jumpSpeed;
-	}			
-	if (transform.position.y < -2) {
+	 }	
+		
+
+  if (Input.GetAxis("Horizontal") > 0)  { 
+   sprite.transform.localScale = Vector3(3.5, 3.5, 1);
+  
+  	
+	if (rigidbody2D.velocity.x < maxSpeed) {
+		rigidbody2D.velocity.x += acceleration;
+	} 
+  } 
+  
+  
+   if (Input.GetAxis("Horizontal") < 0) { 
+   sprite.transform.localScale = Vector3(-3.5, 3.5, 1);
+    
+
+     
+	 if (rigidbody2D.velocity.x > -maxSpeed ) {
+			rigidbody2D.velocity.x -= acceleration;
+		} 	
+    }
+
+
+	
+  
+// end keyboard controls
+	
+
+
+	 	
+			
+					
+									
+	if (transform.position.y < -5) {
 		rigidbody2D.velocity.x = 0;
 		transform.position.x = -68.66307;
-	transform.position.y = 2;		
-		Application.LoadLevel("level 1");	}
+		transform.position.y = 2;		
+		Application.LoadLevel("level 1");
+	}
 
-	Debug.Log(rigidbody2D.velocity.x);
+//	Debug.Log(rigidbody2D.velocity.x);
 }
