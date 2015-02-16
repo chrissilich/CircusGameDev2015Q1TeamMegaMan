@@ -22,9 +22,13 @@ function FixedUpdate () {
 	
 	
 	if (grounded.collider) {
-		animController.SetInteger("State", 0);
+		if (rigidbody2D.velocity.x == 0) {
+			animController.SetInteger("State", 0);
+		} else {
+			animController.SetInteger("State", 1);
+		}	
 	} else {
-		animController.SetInteger("State", 1);
+		animController.SetInteger("State", 2);
 	}
 	
 	
@@ -71,7 +75,7 @@ function FixedUpdate () {
 
 
 	 	
-			
+//death	
 					
 									
 	if (transform.position.y < -5) {
