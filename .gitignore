@@ -22,5 +22,14 @@
 /daybreaker/*.pidb
 /daybreaker/*.booproj
 
+/Daybreaker/*.csproj
+/Daybreaker/*.unityproj
+/Daybreaker/*.sln
+/Daybreaker/*.suo
+/Daybreaker/*.user
+/Daybreaker/*.userprefs
+/Daybreaker/*.pidb
+/Daybreaker/*.booproj
+
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
