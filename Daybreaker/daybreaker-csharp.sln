@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{B9201BDA-8DDC-603A-A597-FCA0FFFDE552}") = "daybreaker", "Assembly-CSharp-firstpass-vs.csproj", "{FA4ECBFB-2BC2-3F44-1C95-08D821E21DCC}"
+Project("{15F6E59D-4BE1-D204-1000-FEAE2F51A80C}") = "Daybreaker", "Assembly-CSharp-firstpass-vs.csproj", "{18FDC81F-32AF-8CB7-ED7D-589BBD8BEDAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FA4ECBFB-2BC2-3F44-1C95-08D821E21DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA4ECBFB-2BC2-3F44-1C95-08D821E21DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA4ECBFB-2BC2-3F44-1C95-08D821E21DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA4ECBFB-2BC2-3F44-1C95-08D821E21DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FDC81F-32AF-8CB7-ED7D-589BBD8BEDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FDC81F-32AF-8CB7-ED7D-589BBD8BEDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FDC81F-32AF-8CB7-ED7D-589BBD8BEDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FDC81F-32AF-8CB7-ED7D-589BBD8BEDAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																									GlobalSection(MonoDevelopProperties) = preSolution
+																																																												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
