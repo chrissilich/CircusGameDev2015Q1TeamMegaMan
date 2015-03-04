@@ -28,11 +28,38 @@ function OnTriggerEnter2D(other: Collider2D) {
 			//	"looptype": "pingpong"
 			//});	
 			
-			iTween.ShakePosition(destroyWhat, Vector3(0.1, 0, 0), 2f);
-			Destroy(destroyWhat, 2);
-		} 
+			iTween.ShakePosition(destroyWhat,{
+				"x": 0.1,
+				"time":2,
+				"delay":0,
+				"onComplete": "dropPlatform",
+				"onCompleteTarget": gameObject,
+				"looptype": "none"
+			});	
+			
+		
+//			iTween.ShakePosition(destroyWhat, Vector3(0.1, 0, 0), 2f);
+//			Destroy(destroyWhat, 2);
+		}
+		
+		
 	}
+	
+	
 }
+
+
+	function dropPlatform () {
+	Debug.Log("drop");
+		iTween.MoveTo(destroyWhat,{
+     		"y": -3, 
+     		"time":3,
+            "onComplete": "OnShadeHidden"
+         });
+    	 Destroy(destroyWhat, 0.7);
+   }
+
+		
 
 
 

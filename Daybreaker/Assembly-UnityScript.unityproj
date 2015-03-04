@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\04-scripts\CharacterController.js" />
      <Compile Include="Assets\04-scripts\death.js" />
+     <Compile Include="Assets\04-scripts\monsters.js" />
      <Compile Include="Assets\04-scripts\remove tunnel entrance.js" />
      <Compile Include="Assets\04-scripts\removeplatform.js" />
      <Compile Include="Assets\04-scripts\teleport1.js" />

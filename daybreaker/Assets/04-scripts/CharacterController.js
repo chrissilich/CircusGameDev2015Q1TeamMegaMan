@@ -35,9 +35,22 @@ function FixedUpdate () {
 
 	
 
-// Keyboard Controls 
+// Keyboard Controls
 
-	if (Input.GetAxis("Vertical") > 0 && 
+// if (Input.GetKey(KeyCode.UpArrow) &&
+// 
+// 		grounded.collider &&
+//		grounded.collider.gameObject.tag == "Ground") {
+//		
+//		Debug.Log("JUMP");
+//		animController.SetInteger("State", 1);
+//		rigidbody2D.velocity.y = jumpSpeed;
+// 
+//  
+//   } 
+ 
+
+	if (Input.GetAxis("Jump") > 0 && 
 		grounded.collider &&
 		grounded.collider.gameObject.tag == "Ground") {
 		
