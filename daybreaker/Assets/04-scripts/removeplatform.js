@@ -1,6 +1,7 @@
 ﻿#pragma strict
 
 public var destroyWhat:GameObject;
+public var shakeWhat:GameObject;
 
 function Start () {
 
@@ -28,7 +29,7 @@ function OnTriggerEnter2D(other: Collider2D) {
 			//	"looptype": "pingpong"
 			//});	
 			
-			iTween.ShakePosition(destroyWhat,{
+			iTween.ShakePosition(shakeWhat,{
 				"x": 0.1,
 				"time":2,
 				"delay":0,
