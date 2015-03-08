@@ -4,7 +4,6 @@ public var jumpSpeed:float = 8;
 public var acceleration:float = 0.1;
 public var maxSpeed:float = 2;
 
-
 function FixedUpdate () {
 	var sprite:Transform = this.transform.Find("Sprite") ;
 	var animController:Animator = sprite.GetComponent("Animator");
