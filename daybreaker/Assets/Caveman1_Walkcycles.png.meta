@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 3c9486edef91148e48b49bfaa87df630
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Caveman1_Walkcycles_0
+    21300002: Caveman1_Walkcycles_1
+    21300004: Caveman1_Walkcycles_2
+    21300006: Caveman1_Walkcycles_3
+    21300008: Caveman1_Walkcycles_4
+    21300010: Caveman1_Walkcycles_5
+    21300012: Caveman1_Walkcycles_6
+    21300014: Caveman1_Walkcycles_7
+    21300016: Caveman1_Walkcycles_8
+    21300018: Caveman1_Walkcycles_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Caveman1_Walkcycles_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 41
+        width: 325
+        height: 336
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 43
+        width: 292
+        height: 334
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_2
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 40
+        width: 292
+        height: 334
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_3
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 43
+        width: 288
+        height: 333
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_4
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 302
+        width: 33
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_5
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 302
+        width: 65
+        height: 15
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_6
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 67
+        width: 37
+        height: 156
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_7
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 62
+        width: 87
+        height: 131
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_8
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 62
+        width: 144
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Caveman1_Walkcycles_9
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 60
+        width: 152
+        height: 35
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
