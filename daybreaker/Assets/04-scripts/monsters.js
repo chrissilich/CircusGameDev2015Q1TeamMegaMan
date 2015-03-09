@@ -10,6 +10,7 @@ function Update () {
 		"x":2,
 		"time":2,
 		"delay":0,
+		"easetype": "easeInOutQuad",
 		"onupdate": "myUpdateFunction",
 		"looptype": "pingPong"
 	});	
